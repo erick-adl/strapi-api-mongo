@@ -1,0 +1,20 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "mongoose",
+      "settings": {
+        "database": "strapicluster",
+        "host": "strapicluster-pcd2r.mongodb.net/test",
+        "srv": "true",
+        "port": "27017",
+        "username": "strapi",
+        "password": "strapi"
+      },
+      "options": {
+        "authenticationDatabase": "",
+        "ssl": true
+      }
+    }
+  }
+}
