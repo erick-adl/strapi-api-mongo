@@ -4,15 +4,11 @@
     "default": {
       "connector": "mongoose",
       "settings": {
-        "database": "strapicluster",
-        "host": "strapicluster-pcd2r.mongodb.net/test",
-        "srv": "true",
-        "port": "27017",
-        "username": "strapi",
-        "password": "strapi"
+        "client": "mongo",
+        "uri": "${process.env.DATABASE_URI}",
+        "database": "${process.env.DATABASE_NAME}"
       },
       "options": {
-        "authenticationDatabase": "",
         "ssl": true
       }
     }
